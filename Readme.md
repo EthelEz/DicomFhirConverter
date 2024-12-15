@@ -25,7 +25,7 @@ The DICOM Converter is a web application built with Streamlit that enables users
 - Numpy
 - FHIRpy
 
-## Installation
+## LocalInstallation
 
 ### Local Setup
 
@@ -49,7 +49,7 @@ The DICOM Converter is a web application built with Streamlit that enables users
     local_url="http://localhost:8090/fhir"
     ```
 
-### Docker Setup
+## Docker Setup and Installation
 
 1. Make sure you have Docker and Docker Compose installed on your system:
     - [Install Docker](https://docs.docker.com/get-docker/)
