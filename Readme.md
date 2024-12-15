@@ -31,8 +31,8 @@ The DICOM Converter is a web application built with Streamlit that enables users
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-repo/dicom-converter.git
-    cd dicom-converter
+    git clone https://github.com/EthelEz/DicomFhirConverter.git
+    cd DicomFhirConverter
     ```
 2. Create and activate a virtual environment (optional but recommended):
     ```bash
