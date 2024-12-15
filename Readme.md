@@ -52,20 +52,19 @@ The DICOM Converter is a web application built with Streamlit that enables users
 ### Docker Setup
 
 1. Make sure you have Docker and Docker Compose installed on your system:
-- [Install Docker](https://docs.docker.com/get-docker/)
-- [Install Docker Compose](https://docs.docker.com/compose/install/)
+    - [Install Docker](https://docs.docker.com/get-docker/)
+    - [Install Docker Compose](https://docs.docker.com/compose/install/)
 
-- run `docker-compose up` to start the FHIR server. To stop the server, run `docker-compose down`.
+2. Run `docker-compose up` to start the FHIR server. To stop the server, run `docker-compose down`.
 
-- run `streamlit run app.py` to start the Streamlit app. Usually, the app will be available at `http://localhost:8501`. if not, you check your browser's console for the correct URL.
+3. Run `streamlit run app.py` to start the Streamlit app. Usually, the app will be available at `http://localhost:8501`. if not, you check your browser's console for the correct URL.
+    - To stop the Streamlit app, press `Ctrl+C` in the terminal where the app is running.
 
-- To stop the Streamlit app, press `Ctrl+C` in the terminal where the app is running.
-
-- to build the `Dockerfile` use `streamlit-compose up --build`. This setup will create:
+4. To build the application with a `Dockerfile` use `streamlit-compose up --build`. This setup will create:
    
-    - a Streamlit container running your application
-    - a HAPI FHIR server container for handling FHIR data
-    - both services will be networked together
+    - A Streamlit container running your application
+    - A HAPI FHIR server container for handling FHIR data
+    - Both services will be networked together
 
 ## Contributing
 
@@ -77,7 +76,7 @@ The DICOM Converter is a web application built with Streamlit that enables users
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is not licensed yet, since it's a personal project and under development.
 
 ## Support
 
