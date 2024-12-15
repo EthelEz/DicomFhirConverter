@@ -8,7 +8,7 @@ The DICOM Converter is a web application built with Streamlit that enables users
 - Upload and view DICOM medical imaging files
 - Convert DICOM metadata to FHIR resources
 - Visualize DICOM images
-- Export FHIR resources in JSON format
+- Export FHIR resources in CSV format
 
 ## Requirements
 
@@ -44,6 +44,10 @@ The DICOM Converter is a web application built with Streamlit that enables users
     pip install -r requirements.txt
     ```
 
+4. Create a `.env` file with the following variables:
+    ```bash
+    local_url="http://localhost:8090/fhir"
+    ```
 
 ### Docker Setup
 
@@ -55,6 +59,13 @@ The DICOM Converter is a web application built with Streamlit that enables users
 
 - run `streamlit run app.py` to start the Streamlit app. Usually, the app will be available at `http://localhost:8501`. if not, you check your browser's console for the correct URL.
 
+- To stop the Streamlit app, press `Ctrl+C` in the terminal where the app is running.
+
+- to build the `Dockerfile` use `streamlit-compose up --build`. This setup will create:
+   
+    - a Streamlit container running your application
+    - a HAPI FHIR server container for handling FHIR data
+    - both services will be networked together
 
 ## Contributing
 
