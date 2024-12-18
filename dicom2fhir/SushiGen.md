@@ -28,7 +28,7 @@ To profile and generate the FHIR Implementation Guide (IG) for this project from
     - Create a `sushi-config.yaml` file in the project root if not present:
     ```yaml
     id: dicom-fhir-converter
-    canonical: http://your-domain/fhir
+    canonical: http://localhost:8090/fhir/ig/transform-dicom-to-fhir
     name: DICOMtoFHIRImplementationGuide
     status: draft
     version: 0.1.0

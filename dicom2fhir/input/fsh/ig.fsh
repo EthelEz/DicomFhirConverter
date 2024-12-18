@@ -1,6 +1,6 @@
 id: transform-dicom-to-fhir
-canonical: http://example.org/fhir/ig/transform-dicom-to-fhir
-url: http://example.org/fhir/ig/transform-dicom-to-fhir/index.html
+canonical: http://localhost:8090/fhir/ig/transform-dicom-to-fhir
+url: http://localhost:8090/fhir/ig/transform-dicom-to-fhir/index.html
 version: 1.0.0
 name: TransformDICOMToFHIR
 status: active
