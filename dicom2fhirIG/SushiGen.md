@@ -21,7 +21,7 @@ To profile and generate the FHIR Implementation Guide (IG) for this project from
 2. Clone and Navigate:
     ```bash
     git clone https://github.com/nedu47/dicomConverter.git
-    cd dicomConverter/dicom2fhir
+    cd dicomConverter/dicom2fhirIG
     ```
 
 3. Set up SUSHI Project:
