@@ -145,6 +145,10 @@ DEBUG=true
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+## Documentation
+
+To understand how the IG was generated, please refer to the [SushiGen](dicom2fhirIG/SushiGen.md) documentation.
+
 ## License
 
 This project is not licensed yet, since it's a personal project and under development.
